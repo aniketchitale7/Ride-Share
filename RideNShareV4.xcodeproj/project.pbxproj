@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B4C5255599831D8E2B81EC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F93D58743F506825D728495 /* Pods.framework */; };
+		CC24B9341C0BE6F2000C58F8 /* RideToTakeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24B9331C0BE6F2000C58F8 /* RideToTakeDetails.swift */; };
+		F5AEB7411C08962C00728695 /* AcceptNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AEB7401C08962B00728695 /* AcceptNotificationController.swift */; };
+		F5BCE0461C059CA000DA2D65 /* RideDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCE0451C059CA000DA2D65 /* RideDetailsController.swift */; };
+		F5BCE0481C05ABB500DA2D65 /* ridedetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCE0471C05ABB500DA2D65 /* ridedetails.swift */; };
+		F5BCE04A1C05ABD500DA2D65 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BCE0491C05ABD500DA2D65 /* SearchResultController.swift */; };
 		F5D3947A1C0159D000A4895B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394791C0159D000A4895B /* AppDelegate.swift */; };
-		F5D3947C1C0159D000A4895B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3947B1C0159D000A4895B /* ViewController.swift */; };
 		F5D3947F1C0159D000A4895B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D3947D1C0159D000A4895B /* Main.storyboard */; };
 		F5D394811C0159D000A4895B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D394801C0159D000A4895B /* Assets.xcassets */; };
 		F5D394841C0159D000A4895B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D394821C0159D000A4895B /* LaunchScreen.storyboard */; };
 		F5D3948F1C0159D000A4895B /* RideNShareV4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D3948E1C0159D000A4895B /* RideNShareV4Tests.swift */; };
 		F5D3949A1C0159D000A4895B /* RideNShareV4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394991C0159D000A4895B /* RideNShareV4UITests.swift */; };
+		F5D394B51C01B06A00A4895B /* MePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394B11C01B06A00A4895B /* MePageController.swift */; };
+		F5D394B61C01B06A00A4895B /* OfferRide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394B21C01B06A00A4895B /* OfferRide.swift */; };
+		F5D394B71C01B06A00A4895B /* SearchRideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394B31C01B06A00A4895B /* SearchRideController.swift */; };
+		F5D394B81C01B06A00A4895B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394B41C01B06A00A4895B /* ViewController.swift */; };
+		F5D394C51C01B36300A4895B /* SearchResultsControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394C41C01B36300A4895B /* SearchResultsControllerTableViewController.swift */; };
+		F5D394C71C0575CA00A4895B /* ConfirmRideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D394C61C0575C900A4895B /* ConfirmRideController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F93D58743F506825D728495 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F95DF523CEA7BDE86A327F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7285C7ECD79B57B32A5A177A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CC24B9331C0BE6F2000C58F8 /* RideToTakeDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideToTakeDetails.swift; sourceTree = "<group>"; };
+		F5AEB7401C08962B00728695 /* AcceptNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptNotificationController.swift; sourceTree = "<group>"; };
+		F5BCE0451C059CA000DA2D65 /* RideDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailsController.swift; sourceTree = "<group>"; };
+		F5BCE0471C05ABB500DA2D65 /* ridedetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ridedetails.swift; sourceTree = "<group>"; };
+		F5BCE0491C05ABD500DA2D65 /* SearchResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
 		F5D394761C0159D000A4895B /* RideNShareV4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideNShareV4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D394791C0159D000A4895B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5D3947B1C0159D000A4895B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5D3947E1C0159D000A4895B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5D394801C0159D000A4895B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5D394831C0159D000A4895B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,12 @@
 		F5D394951C0159D000A4895B /* RideNShareV4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideNShareV4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D394991C0159D000A4895B /* RideNShareV4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideNShareV4UITests.swift; sourceTree = "<group>"; };
 		F5D3949B1C0159D000A4895B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D394B11C01B06A00A4895B /* MePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MePageController.swift; sourceTree = "<group>"; };
+		F5D394B21C01B06A00A4895B /* OfferRide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferRide.swift; sourceTree = "<group>"; };
+		F5D394B31C01B06A00A4895B /* SearchRideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRideController.swift; sourceTree = "<group>"; };
+		F5D394B41C01B06A00A4895B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D394C41C01B36300A4895B /* SearchResultsControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsControllerTableViewController.swift; sourceTree = "<group>"; };
+		F5D394C61C0575C900A4895B /* ConfirmRideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmRideController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B4C5255599831D8E2B81EC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		405906D9AD0A2657A4D7A88A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F93D58743F506825D728495 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA725779E5D704D60669710F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F95DF523CEA7BDE86A327F /* Pods.debug.xcconfig */,
+				7285C7ECD79B57B32A5A177A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F5D3946D1C0159D000A4895B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				F5D3948D1C0159D000A4895B /* RideNShareV4Tests */,
 				F5D394981C0159D000A4895B /* RideNShareV4UITests */,
 				F5D394771C0159D000A4895B /* Products */,
+				EA725779E5D704D60669710F /* Pods */,
+				405906D9AD0A2657A4D7A88A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +141,22 @@
 		F5D394781C0159D000A4895B /* RideNShareV4 */ = {
 			isa = PBXGroup;
 			children = (
+				F5BCE0491C05ABD500DA2D65 /* SearchResultController.swift */,
+				F5BCE0471C05ABB500DA2D65 /* ridedetails.swift */,
+				F5D394C41C01B36300A4895B /* SearchResultsControllerTableViewController.swift */,
+				F5D394B11C01B06A00A4895B /* MePageController.swift */,
+				CC24B9331C0BE6F2000C58F8 /* RideToTakeDetails.swift */,
+				F5D394B21C01B06A00A4895B /* OfferRide.swift */,
+				F5D394B31C01B06A00A4895B /* SearchRideController.swift */,
+				F5D394B41C01B06A00A4895B /* ViewController.swift */,
 				F5D394791C0159D000A4895B /* AppDelegate.swift */,
-				F5D3947B1C0159D000A4895B /* ViewController.swift */,
 				F5D3947D1C0159D000A4895B /* Main.storyboard */,
 				F5D394801C0159D000A4895B /* Assets.xcassets */,
 				F5D394821C0159D000A4895B /* LaunchScreen.storyboard */,
 				F5D394851C0159D000A4895B /* Info.plist */,
+				F5D394C61C0575C900A4895B /* ConfirmRideController.swift */,
+				F5BCE0451C059CA000DA2D65 /* RideDetailsController.swift */,
+				F5AEB7401C08962B00728695 /* AcceptNotificationController.swift */,
 			);
 			path = RideNShareV4;
 			sourceTree = "<group>";
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5D3949E1C0159D000A4895B /* Build configuration list for PBXNativeTarget "RideNShareV4" */;
 			buildPhases = (
+				613B0F117353C1FC2E4F7EE2 /* Check Pods Manifest.lock */,
 				F5D394721C0159D000A4895B /* Sources */,
 				F5D394731C0159D000A4895B /* Frameworks */,
 				F5D394741C0159D000A4895B /* Resources */,
+				D10A5EB152B1E6461BE6F4B7 /* Embed Pods Frameworks */,
+				125C3DC811927063C15DD09C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,7 +249,7 @@
 				TargetAttributes = {
 					F5D394751C0159D000A4895B = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 24NT669629;
+						DevelopmentTeam = 96WW4YZ68S;
 					};
 					F5D394891C0159D000A4895B = {
 						CreatedOnToolsVersion = 7.0;
@@ -253,13 +310,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		125C3DC811927063C15DD09C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613B0F117353C1FC2E4F7EE2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D10A5EB152B1E6461BE6F4B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5D394721C0159D000A4895B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D3947C1C0159D000A4895B /* ViewController.swift in Sources */,
+				F5D394B81C01B06A00A4895B /* ViewController.swift in Sources */,
+				F5BCE0481C05ABB500DA2D65 /* ridedetails.swift in Sources */,
+				F5AEB7411C08962C00728695 /* AcceptNotificationController.swift in Sources */,
+				F5D394B61C01B06A00A4895B /* OfferRide.swift in Sources */,
+				CC24B9341C0BE6F2000C58F8 /* RideToTakeDetails.swift in Sources */,
 				F5D3947A1C0159D000A4895B /* AppDelegate.swift in Sources */,
+				F5BCE04A1C05ABD500DA2D65 /* SearchResultController.swift in Sources */,
+				F5D394C51C01B36300A4895B /* SearchResultsControllerTableViewController.swift in Sources */,
+				F5BCE0461C059CA000DA2D65 /* RideDetailsController.swift in Sources */,
+				F5D394B51C01B06A00A4895B /* MePageController.swift in Sources */,
+				F5D394C71C0575CA00A4895B /* ConfirmRideController.swift in Sources */,
+				F5D394B71C01B06A00A4895B /* SearchRideController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +512,33 @@
 		};
 		F5D3949F1C0159D000A4895B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F95DF523CEA7BDE86A327F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RideNShareV4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uiowa.edu.RideNShareV4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		F5D394A01C0159D000A4895B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7285C7ECD79B57B32A5A177A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RideNShareV4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uiowa.edu.RideNShareV4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +609,7 @@
 				F5D394A01C0159D000A4895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5D394A11C0159D000A4895B /* Build configuration list for PBXNativeTarget "RideNShareV4Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +618,7 @@
 				F5D394A31C0159D000A4895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5D394A41C0159D000A4895B /* Build configuration list for PBXNativeTarget "RideNShareV4UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +627,7 @@
 				F5D394A61C0159D000A4895B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
